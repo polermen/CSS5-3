@@ -1,0 +1,184 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex; /* Makes header and main side-by-side */
+    flex-direction: row; /* Ensures they are aligned horizontally */
+}
+
+header {
+    background: #E7EEFF;
+    display: flex;
+    flex-direction: column;
+    height: 992px;
+    width: 104px;
+    padding: 12px 28px 708px 28px;
+    align-items: center;
+    gap: 24px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+header div {
+    display: flex;
+    flex-direction: column; /* Ensures internal content in a column */
+    gap: 24px; /* Adds spacing between elements */
+}
+
+header div > img:first-child {
+    border-bottom: 1px solid #002B81;
+}
+
+header button {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.search div:nth-of-type(2) {
+    display: flex;
+    flex-direction: row; /* Align profile name and image side-by-side */
+    align-items: center;
+    gap: 12px; /* Adds spacing between profile name and image */
+}
+
+.search div:nth-of-type(2) p {
+    color: #5E6577;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; /* 150% */
+}
+
+.search div:nth-of-type(2) img {
+    width: 40px;
+    height: 40px;
+}
+
+.search {
+    display: flex;
+    flex-direction: row;
+    width: 1336px;
+    padding: 20px 0px;
+    justify-content: space-between;
+    align-items: center;
+    background: #E7EEFF;
+}
+
+.search div:nth-of-type(1) {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+}
+
+.search form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+}
+
+.search div:nth-of-type(1) img {
+    display: flex;
+    width: 24px;
+    height: 24px;
+    justify-content: center;
+    align-items: center;
+}
+
+.search div:nth-of-type(1) input {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    color: #000;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; /* 175% */
+    width: 290px;
+    background: transparent;
+    border: none;
+}
+
+.container div:nth-of-type(1) {
+    display: flex;
+    justify-content: flex-end;
+    gap: 30px;
+    margin-top: 42px;
+}
+
+.container div:nth-of-type(1) button {
+    display: flex;
+    padding: 8px 24px 8px 12px;
+    align-items: center;
+    gap: 12px;
+    border-radius: 16px;
+    background: #E7EEFF;
+    border: none;
+}
+
+.offers div:nth-of-type(2) {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background: #E7EEFF;
+    width: 353px;
+    border-radius: 0 0 24px 24px;
+    padding: 8px 12px;
+}
+
+.offers div h1 {
+    color: #000;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 166.667% */
+    align-items: stretch;
+}
+
+.offers div p {
+    color: #606060;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 214.286% */
+    align-items: stretch;
+}
+
+.offers > div > div {
+    height: 275px;
+    background-image: url(image.svg);
+    aspect-ratio: 353/275;
+}
+
+.offers {
+    display: flex;
+    padding: 8px 12px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4px;
+    align-self: stretch;
+}
+
+.raw {
+    display: flex;
+    gap: 42px;
+    align-items: center;
+    margin-top: 42px;
+    margin-left: 96px;
+}
+
+
+
+
